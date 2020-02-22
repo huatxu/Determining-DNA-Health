@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+C:\Users\andre\GIT\Determining-DNA-Health\.metadata\.plugins\org.eclipse.jdt.core
+2842528100.index
