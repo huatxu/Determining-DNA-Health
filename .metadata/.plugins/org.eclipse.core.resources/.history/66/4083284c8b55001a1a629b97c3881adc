@@ -1,0 +1,21 @@
+package dnaHealth;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+public class Driver {
+	public static void main(String... args) throws IOException {
+		Path inputFolder = Paths.get(".\\input");
+		Files.list(inputFolder).forEach(e -> drive(e));
+		}
+
+	private static void drive(Path path) {
+		try(BufferedReader reader = new BufferedReader(new FileReader(path.toFile()))) {
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+}
